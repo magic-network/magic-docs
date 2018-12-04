@@ -4,7 +4,7 @@ Welcome to Magic  🎉
 Here you'll find documentation and resources for learning about, installing and using Magic. 
 
 # What is Magic?
-Magic is a network of networks — seamlessly blending coverage across WiFi, Cellular, and new technologies like 5G and LPWAN. A technical overview of primary components is available 
+Magic is a network of networks — seamlessly blending coverage across WiFi, Cellular, and new technologies like 5G and LPWAN. 
 
 Providing Coverage
 ------
