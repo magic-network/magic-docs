@@ -24,5 +24,5 @@ Documentation
     * [Whitepaper]
 * Reference
     * [Advanced Gateway Configuration](magic-agent/gateway/reference/advanced-config.md)
-* [FAQ]
+* [FAQs]
 * [Changelog]
