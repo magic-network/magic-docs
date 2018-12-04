@@ -13,8 +13,12 @@ guides walk you through the most frequently used firmwares:
 
 ## OpenWRT
 
-TODO: Add OpenWRT setup steps 
+TODO: Add OpenWRT setup steps
+
+![Step 1](./images/placeholder.png) 
 
 ## MicroTik
 
 TODO: Add MicroTik setup steps
+
+![Step 1](./images/placeholder.png)
