@@ -7,9 +7,11 @@ Here you'll find documentation and resources for learning about, installing and 
 Magic is a network of networks — seamlessly blending coverage across WiFi, Cellular, and new technologies like 5G and LPWAN. 
 
 **Providing Coverage**
+
 Anyone can extend the availability of Magic- enabled networks by providing an access point of their own. This can be accomplished purely through software and off- the-shelf hardware by installing the agent on a computer or mobile phone, or through more involved means such as custom router configurations, open-source router construction, or full-scale integration into a backbone provider like CenturyLink. 
 
 **Using the Network**
+
 Just like running a VPN client or hotspot, a Magic Network consumer runs a Magic client on a device to automatically broker access to Magic- enabled access points. The Magic client acts on behalf of the consumer, and interacts with the global Magic supernetwork to authorize access to in-range Wi-Fi access points, cellular base stations, and more. The Magic client also provides wallet functionality, as well as support for sponsorship of connectivity by other Magic users for fully-autonomous and fleet applications.
 
 # What's available today?
