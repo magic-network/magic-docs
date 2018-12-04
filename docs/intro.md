@@ -17,9 +17,9 @@ Just like running a VPN client or hotspot, a Magic Network consumer runs a Magic
 # What's available today?
 For Alpha, we are actively working through various deployment options and compatibility as users give us feedback on their setups. For ease of use, we recommend setting up Magic Alpha on your home network. 
 
-Radio Access Technologies: WiFi
-Client CLI: MacOS
-Gateway Agent: An x86 or ARM resource, it can virtually run on any OS, but should follow POSIX compliant standards
+- Radio Access Technologies: WiFi
+- Client CLI: MacOS
+- Gateway Agent: An x86 or ARM resource, it can virtually run on any OS, but should follow POSIX compliant standards
 
 # What's next?
 From a core infrastructure standpoint, we will be working on payments, the underpinnings of the economy, security and privacy. In addition, experience updates to the client, including expanding compatibility to mobile and cloud hosted experiences.
