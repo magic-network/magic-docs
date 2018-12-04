@@ -1,0 +1,23 @@
+{
+  "name": "magic-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx docpress build",
+    "serve": "npx docpress s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.teamhologram.ninja:magic/magic-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docpress": "0.7.4"
+  },
+  "docpress": {
+    "docs": "docs",
+    "dist": "build"
+  }
+}
