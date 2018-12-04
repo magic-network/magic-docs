@@ -1,7 +1,5 @@
-Magic
+Welcome to Magic  🎉
 ==========
-
-Welcome to Magic 🎉
 
 Here you'll find documentation and resources for installing and using Magic. 
 
