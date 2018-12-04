@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.teamhologram.ninja:magic/magic-docs.git"
+    "url": "git@github.com:magic-network/magic-docs.git"
   },
   "author": "",
   "license": "ISC",
