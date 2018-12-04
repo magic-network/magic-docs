@@ -10,4 +10,4 @@ Inspired to contribute? Get in touch with the team!
 - Submit a GitHub issue
 - Email us at hello@magic.co
 
-Follow along by signing up at [https://magic.co]
+Follow along by signing up with us at https://magic.co
