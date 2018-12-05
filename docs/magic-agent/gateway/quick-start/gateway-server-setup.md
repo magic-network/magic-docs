@@ -34,3 +34,6 @@ router.*
 For the gateway to run properly, you'll need to complete the config file found in the `docker-compose.yml` file 
 "environments" section. 
 
+The IP addresses here should be set to your router's IP address.
+
+
