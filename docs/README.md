@@ -18,8 +18,8 @@ Documentation
     * [RaspberryPi as Gateway Setup](magic-agent/provider/gateway/guides/raspberry-pi-setup.md)
 * Architecture
     * [Primary Components]
-    * [The Token]
-    * [Solidity Contracts]
+    * [The Token](magic-protocol/magic-coin.md)
+    * [Smart Contracts](magic-protocol/smart-contracts.md)
     * [Whitepaper]
 * Reference
     * [Advanced Gateway Configuration](magic-agent/provider/gateway/reference/advanced-config.md)
