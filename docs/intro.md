@@ -8,7 +8,7 @@ Magic is a network of networks — seamlessly blending coverage across WiFi, Cel
 
 **Providing Coverage**
 
-Anyone can extend the availability of Magic- enabled networks by providing an access point of their own. This can be accomplished purely through software and off- the-shelf hardware by installing the agent on a computer or mobile phone, or through more involved means such as custom router configurations, open-source router construction, or full-scale integration into a backbone provider like CenturyLink. 
+Anyone can extend the availability of Magic- enabled networks by providing an access point of their own. This can be accomplished purely through software and off- the-shelf hardware by installing the agent on a computer or mobile phone, or through more involved means such as custom router configurations, open-source router construction, or full-scale integration into a backbone provider. 
 
 **Using the Network**
 
