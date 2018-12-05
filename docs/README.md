@@ -4,8 +4,6 @@ Documentation
 * [magic.](./intro.md)
 * Overview - What is Magic?
     * [Intro](./intro.md)
-    * [Magic Client Experience](./magic-client-experience.md)
-    * [Connection Provider Experience](./connection-provider-experience.md)
 * User Quick Start
     * [Installing CLI](magic-cli/quick-start/installing-cli.md)
     * [Generating Account]
