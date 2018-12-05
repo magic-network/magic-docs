@@ -12,8 +12,7 @@ At a high level, this is what you'll need to configure:
 
 3. Verify gateway server is configured with the IP of the router.
 
-Due to the enormous amounts of router firmwares, the procedure to configure them can be very different.  The following
-guides walk you through the most frequently used firmwares.
+There's an enormous amount of variation in router firmware. Here are guides for a few of the more common varieties.
 
 ## MicroTik
 
