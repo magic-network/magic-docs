@@ -4,8 +4,7 @@ You have several methods to configure your Magic Gateway. Each method extends th
 
 ## Default Config File
 
-The gateway server extends a default config found at `/conf/default-config.hjson`. Currently
-supported options are found in the [Gateway Configuration Reference](https://www.youtube.com/watch?v=dQw4w9WgXcQ). 
+The gateway server extends a default config found at `/conf/default-config.hjson`.  
 
 ## User Config File
 
