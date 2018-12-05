@@ -8,7 +8,7 @@ Incentivized behaviors:
 1. Quality Internet Service:  Providers should be providing consistent and fast service to those using their network.  
 In order to keep this a distributed system, Magic defines a Proof of Availability (POA) concept which seeks to formally prove and define 
 the availability and quality of a provider in which all parties of the system can agree upon.  More on this in 
-the whitepaper.
+the forthcoming whitepaper. Current implementation is speculative and subject to change as tokenomics are defined.
 
 1. Use as a utility:  Magic coins are technically a "utility token" which should be used for buying & selling internet
 connection by a consumer or any internet connected device.
