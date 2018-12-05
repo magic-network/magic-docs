@@ -4,14 +4,16 @@ At a high level, this is what you'll need to configure:
 
 1. Enable a virtual wireless access point on your router using WPA2-Enterprise, enabling and configuring RADIUS and setting your gateway device's IP as the gateway server. 
 
+
 2. Set hostname of gateway:
     - Via a DNS entry on your router. (recommended)
     - Via manually changing hostname on your gateway device.
+    
 
 3. Verify gateway server is configured with the IP of the router.
 
 Due to the enormous amounts of router firmwares, the procedure to configure them can be very different.  The following
-guides walk you through the most frequently used firmwares:
+guides walk you through the most frequently used firmwares.
 
 ## MicroTik
 
@@ -42,8 +44,9 @@ guides walk you through the most frequently used firmwares:
     Save configuration. Click "Incoming" button to set Port number and accept requests.
     - Accept: checked
     - Port: 3799
-
-
+    
+    NOTE: Run ```ifconfig``` on your gateway to get its IP
+  
 ## OpenWRT
 
 TODO: Add OpenWRT setup steps 
