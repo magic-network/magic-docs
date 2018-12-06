@@ -14,3 +14,9 @@ git clone https://github.com/magic-network/magic-cli.git
 ```
 pip install magic-cli
 ````
+
+## Running CLI
+Once installed, you can start the CLI with:
+```
+magic-cli
+```

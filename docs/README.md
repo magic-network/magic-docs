@@ -6,8 +6,7 @@ Documentation
     * [Intro](./intro.md)
 * User Quick Start
     * [Installing CLI](magic-cli/quick-start/installing-cli.md)
-    * [Generating Account]
-    * [Viewing Balance]
+    * [Generating Test Account](magic-cli/quick-start/generating-account.md)
 * Provider Quick Start
     * [Hardware Pre-requisites](magic-agent/provider/gateway/quick-start/hardware-prereqs.md)
     * [Gateway Server Setup](magic-agent/provider/gateway/quick-start/gateway-server-setup.md)

@@ -1,0 +1,110 @@
+/* custom fonts */
+@font-face {
+    font-family: Founders Grotesk;
+    font-weight: 300;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Light.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Light.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Light.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Light.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Light.svg#stringReplace(%22Founders%20Grotesk%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk;
+    font-weight: 400;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Regular.svg#stringReplace(%22Founders%20Grotesk%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk;
+    font-weight: 500;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Medium.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Medium.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Medium.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Medium.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Medium.svg#stringReplace(%22Founders%20Grotesk%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk;
+    font-weight: 600;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Semibold.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Semibold.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Semibold.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Semibold.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Semibold.svg#stringReplace(%22Founders%20Grotesk%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk;
+    font-weight: 700;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskWeb-Bold.svg#stringReplace(%22Founders%20Grotesk%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk Mono;
+    font-weight: 300;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Light.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Light.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Light.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Light.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Light.svg#stringReplace(%22Founders%20Grotesk%20Mono%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk Mono;
+    font-weight: 400;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Regular.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Regular.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Regular.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Regular.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Regular.svg#stringReplace(%22Founders%20Grotesk%20Mono%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk Mono;
+    font-weight: 500;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Medium.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Medium.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Medium.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Medium.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Medium.svg#stringReplace(%22Founders%20Grotesk%20Mono%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk Mono;
+    font-weight: 600;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Semibold.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Semibold.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Semibold.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Semibold.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Semibold.svg#stringReplace(%22Founders%20Grotesk%20Mono%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+@font-face {
+    font-family: Founders Grotesk Mono;
+    font-weight: 700;
+    src: url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Bold.eot) format("eot"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Bold.woff2) format("woff2"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Bold.woff) format("woff"), url(https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Bold.ttf) format("truetype"), url('https://s3.us-east-2.amazonaws.com/hologram-static/magic/fonts/FoundersGroteskMonoWeb-Bold.svg#stringReplace(%22Founders%20Grotesk%20Mono%22,%20%22%20%22,%20%22_%22)') format("svg")
+}
+
+html {
+    font-family: "Founders Grotesk", sans-serif;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* logo */
+.toc-menu .-level-1:first-child > .title {
+    background-image: url('https://s3.us-east-2.amazonaws.com/magic-statics/docs/magic-docs-logo-black.png');
+    background-position: 24px 0;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    color: transparent;
+    min-height: 48px;
+    user-select: none;
+}
+
+/* active TOC menu item */
+.toc-menu .link.-active {
+    box-shadow: inset -2px 0 #ff3bdb;
+}
+
+/* unlinked (unclickable) TOC menu items */
+.toc-menu .menu-item .-level-2 > .title:not(.link) {
+    opacity: 0.3;
+}
+
+/* body copy */
+.markdown-body {
+    font-family: "Founders Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 22px;
+    font-weight: 300;
+}
+.markdown-body ul, .markdown-body ol {
+    padding-left: 1.65em;
+}
+
+/* code blocks */
+.markdown-body pre {
+    line-height: 1.2;
+}
+.markdown-body pre code {
+    font-family: "Founders Grotesk Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 90%;
+    font-weight: 300;
+}
+
+/* sidebar menu */
+.toc-menu {
+    font-size: 15px;
+}
+.toc-menu .-level-1.-parent > .title {
+    font-weight: 500;
+}
