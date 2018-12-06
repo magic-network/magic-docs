@@ -18,6 +18,9 @@
   },
   "docpress": {
     "docs": "docs",
-    "dist": "build"
+    "dist": "build",
+    "css": [
+      "docs/style.css"
+    ]
   }
 }
