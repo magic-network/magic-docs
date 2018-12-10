@@ -3,7 +3,7 @@
 This repository contains all the documentation for the Magic ecosystem.
 
 #### Want to help?
-Fork, improve and PR. ;-)
+Fork, improve and PR.
 
 ## Testing changes
 
