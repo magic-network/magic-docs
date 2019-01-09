@@ -7,6 +7,10 @@ within range of your network may utilize your network as long as they agree with
 *During gateway setup, it's best to have your gateway device connected to an existing internet connection before configuring your
 router.*
 
+#### Want to help?
+Fork, improve and PR. View our [contributing guide](https://github.com/magic-network/magic-agent/blob/master/CONTRIBUTING.md) 
+for more details.
+
 ## Dependencies 
 1. [docker](https://www.docker.com/get-started) (18.06.1-ce+)
 1. [docker-compose](https://docs.docker.com/compose/install/) (1.22.0+)
@@ -16,6 +20,7 @@ router.*
     ```
     git clone https://github.com/magic-network/magic-agent
     cd magic-agent
+    docker-compose pull
     docker-compose up -d
     ```
 
