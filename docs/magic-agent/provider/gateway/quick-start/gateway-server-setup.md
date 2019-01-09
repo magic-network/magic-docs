@@ -16,6 +16,7 @@ router.*
     ```
     git clone https://github.com/magic-network/magic-agent
     cd magic-agent
+    docker-compose pull
     docker-compose up -d
     ```
 
