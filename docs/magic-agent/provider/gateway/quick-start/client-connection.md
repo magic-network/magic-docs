@@ -18,5 +18,5 @@ The logs should contain no errors.
 
 ## Client-cli in testing mode
 
-TODO: add client-cli method of testing a specific ssid.
+Coming Soon: add client-cli method of testing a specific ssid.
  
