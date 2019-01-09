@@ -3,6 +3,8 @@ Welcome to Magic  🎉
 
 Here you'll find documentation and resources for learning about, installing and using Magic. 
 
+Visit https://magic.co for more information or hop over to https://github.com/magic-network to view the code.
+
 # What is Magic?
 Magic is a network of networks — seamlessly blending coverage across WiFi, Cellular, and new technologies like 5G and LPWAN. 
 
