@@ -3,7 +3,8 @@
 This repository contains all the documentation for the Magic ecosystem.
 
 #### Want to help?
-Fork, improve and PR.
+Fork, improve and PR. View our [contributing guide](https://github.com/magic-network/magic-agent/blob/master/CONTRIBUTING.md) 
+for more details.
 
 ## Testing changes
 
