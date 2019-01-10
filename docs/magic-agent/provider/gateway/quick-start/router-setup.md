@@ -48,5 +48,8 @@ There's an enormous amount of variation in router firmware. Here are guides for 
   
 ## OpenWRT
 
-TODO: Add OpenWRT setup steps 
+Coming soon! Already tried this for yourself? Help us improve our documentation.
+
+View our [contributing guide](https://github.com/magic-network/magic-agent/blob/master/CONTRIBUTING.md) 
+for more details. 
 
