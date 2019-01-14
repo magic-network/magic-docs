@@ -90,6 +90,7 @@ body {
     font-family: "Founders Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 21px;
     font-weight: 300;
+    max-width: 860px;
 }
 .markdown-body ul, .markdown-body ol {
     padding-left: 1.65em;
@@ -102,7 +103,7 @@ body {
 .markdown-body pre code {
     font-family: "Founders Grotesk Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 90%;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 /* sidebar menu */
