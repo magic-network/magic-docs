@@ -21,6 +21,7 @@ Documentation
     * [Smart Contracts](magic-protocol/smart-contracts.md)
     * [Whitepaper]
 * Reference
+    * [Contract Addresses](magic-protocol/contract-addresses.md)
     * [Advanced Gateway Configuration](magic-agent/provider/gateway/reference/advanced-config.md)
 * [FAQ]
 * [Changelog]
