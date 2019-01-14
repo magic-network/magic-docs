@@ -71,6 +71,10 @@ body {
     user-select: none;
 }
 
+.toc-menu .-level-1:first-child > .title.-active{
+    box-shadow: none;
+}
+
 /* active TOC menu item */
 .toc-menu .link.-active {
     box-shadow: inset -2px 0 #ff3bdb;
