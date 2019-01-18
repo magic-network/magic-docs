@@ -18,6 +18,9 @@
   },
   "docpress": {
     "docs": "docs",
+    "scripts": [
+      "analytics.js"
+    ],
     "dist": "build",
     "css": [
       "docs/style.css"
