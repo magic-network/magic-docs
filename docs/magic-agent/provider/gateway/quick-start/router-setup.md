@@ -40,8 +40,8 @@ There's an enormous amount of variation in router firmware. Here are guides for 
     - Address: **\<your magic gateway ip\>** (Please contact us to request an closed beta default gateway server in the cloud)
     - Secret: **magicsecret**
     
-    Save configuration. Click "Incoming" button to set Port number and accept requests.
-    - Accept: checked
+    Save configuration. Find & click the "Incoming" button (still in the `Radius` section) to set Port number and accept requests.
+    - Accept: **checked**
     - Port: **3799**
     
     NOTE: To receive the ip of your pi gateway, run the terminal command `ifconfig`.
