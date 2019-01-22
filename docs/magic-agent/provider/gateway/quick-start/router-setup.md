@@ -16,35 +16,35 @@ There's an enormous amount of variation in router firmware. Here are guides for 
 
 ## MicroTik
 
-1. Access your router configuration by navigating to its IP address and using webfig
+1. After initial setup of a MicroTik router, navigate again to it's portal at `http://192.168.88.1/webfig`.
 
-2. In Wireless>Security Profiles. Create a new security profile.
-    - Set to dynamic keys
-    - Authentication Type: WPA2 EAP
-    - Unicast cyphers and group cyphers: aes ccm
-    - Supplicant identity: magic
-    - EAP Methods: passthrough
+2. In `Wireless > Security Profiles` section, Create a new security profile.
+    - Set to **dynamic keys**
+    - Authentication Type: **WPA2 EAP**
+    - Unicast cyphers and group cyphers: **aes ccm**
+    - Supplicant identity: **magic**
+    - EAP Methods: **passthrough**
     
     NOTE: The supplicant identity must be named magic.
 
-3. In Wireless>Interfaces. Create a new virtual access point.
-    - Mode: ap bridge
-    - SSID: <magic>
-    - Security Profile: <created in step 2>
+3. In the `Wireless > Interfaces` section, Create a new virtual access point.
+    - Mode: **ap bridge**
+    - SSID: **magic**
+    - Security Profile: **magic** (supplicant identity from step 2)
     
-    NOTE: Uncheck “Default Forwarding” (disables client-to-client direct communication)
+    NOTE: Uncheck **Default Forwarding** (disables client-to-client direct communication)
 
-4. In RADIUS. Enable and configure set communication between router and radius server on your gateway.
-    - Enable: checked
-    - Service: wireless
-    - Address: gateway IP address
-    - Secret: magicsecret
+4. In the `Radius` section, Click `Add New` and create with the following config:
+    - Enable: **checked**
+    - Service: **wireless**
+    - Address: **\<your magic gateway ip\>** (Please contact us to request an closed beta default gateway server in the cloud)
+    - Secret: **magicsecret**
     
-    Save configuration. Click "Incoming" button to set Port number and accept requests.
-    - Accept: checked
-    - Port: 3799
+    Save configuration. Find & click the "Incoming" button (still in the `Radius` section) to set Port number and accept requests.
+    - Accept: **checked**
+    - Port: **3799**
     
-    NOTE: Run ```ifconfig``` on your gateway to get its IP
+    NOTE: To receive the ip of your pi gateway, run the terminal command `ifconfig`.
   
 ## OpenWRT
 
