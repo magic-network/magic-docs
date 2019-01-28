@@ -20,7 +20,7 @@ Just like running a VPN client or hotspot, a Magic Network consumer runs a Magic
 For Alpha, we are actively working through various deployment options and compatibility as users give us feedback on their setups. For ease of use, we recommend setting up Magic Alpha on your home network. 
 
 - Radio Access Technologies: WiFi
-- Client CLI: MacOS
+- Client CLI: MacOS, Linux support verified on Ubuntu 18.04.1 LTS and nmcli 1.10.6
 - Gateway Agent: An x86 or ARM resource, it can virtually run on any OS, but should follow POSIX compliant standards
 
 # What's next?
