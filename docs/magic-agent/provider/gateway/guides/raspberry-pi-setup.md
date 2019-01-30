@@ -33,5 +33,3 @@ Note: The Pi should be connected to the internet on the same network as you are 
 ### Install Magic
 Follow the same steps as the Quick Start:
 https://magic-network.github.io/magic-agent/provider/gateway/quick-start/gateway-server-setup.html
-
-Depending on permissions on the Pi, you may need to modify the steps above with sudo.
