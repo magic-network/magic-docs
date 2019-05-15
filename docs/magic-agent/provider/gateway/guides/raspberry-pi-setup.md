@@ -13,25 +13,25 @@ Note: The Pi should be connected to the internet on the same network as you are 
 
 ## Install Magic Pre-requisites
 
-### Update
+#### Update
 
 Some packages may fail to resolve if you don't first update Raspbian
 
 ```sudo apt update```
 
-### Install git
+#### Install git
 
 ```sudo apt install git```
 
-### Install pip
+#### Install pip
 
 ```sudo apt install python-pip```
 
-### Install Docker
+#### Install Docker
 
 ```curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh```
 
-### Add user to Docker group
+#### Add user to Docker group
 
 Running the docker install script will tell you to add the user to the docker group by running
 
@@ -39,7 +39,7 @@ Running the docker install script will tell you to add the user to the docker gr
 
 Not doing this will make attaching to the Docker daemon fail later on in the setup process
 
-### Install Docker Compose
+#### Install Docker Compose
 
 As of 5/14/2019 installing docker-compose through pip will fail giving the following error: `TypeError: unsupported operand types for -=: 'Retry' and 'int'`
 
@@ -51,7 +51,7 @@ and then upgrade to a newer version, but not the newest version, since that also
 
 ```sudo pip install docker-compose==1.23.2```
 
-### Reboot
+#### Reboot
 
 You won't be able to connect to the Docker daemon until you restart
 
