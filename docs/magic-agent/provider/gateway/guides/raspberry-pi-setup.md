@@ -63,3 +63,23 @@ Follow the same steps as the Quick Start:
 https://magic-network.github.io/magic-agent/provider/gateway/quick-start/gateway-server-setup.html
 
 Depending on permissions on the Pi, you may need to modify the steps above with sudo.
+
+## Run Magic on startup
+
+There are various ways of running a program on startup so if there is a method you prefer please feel free to use that method instead. 
+
+Our default recommended method is to edit the `rc.local` file since we only want to have the program run once.
+
+In the terminal type in:
+
+```sudo nano /etc/rc.local```
+
+Now add the line:
+
+```docker-compose -f <location of magic agent>/docker-compose.yml up -d```
+
+Assuming you installed the magic agent to the default location the path will be:
+
+```/home/pi/magic-agent/docker-compose.yml```
+
+To save your changes hit ctrl-x and it will prompt you to save your changes. Enter y/yes and you should be good to go. If you want, try rebooting the pi and once it has finished booting run `docker ps` in the terminal to see if the container is running. It should appear in the list of running containers.
