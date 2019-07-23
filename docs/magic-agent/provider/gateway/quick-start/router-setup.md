@@ -37,7 +37,7 @@ There's an enormous amount of variation in router firmware. Here are guides for 
 4. In the `Radius` section, Click `Add New` and create with the following config:
     - Enable: **checked**
     - Service: **wireless**
-    - Address: **\<your magic gateway ip\>** (Please contact us to request an closed beta default gateway server in the cloud)
+    - Address: **\<your magic gateway ip\>** (Please contact us to request a closed beta default gateway server in the cloud)
     - Secret: **magicsecret**
     
     Save configuration. Find & click the "Incoming" button (still in the `Radius` section) to set Port number and accept requests.
@@ -50,6 +50,6 @@ There's an enormous amount of variation in router firmware. Here are guides for 
 
 Coming soon! Already tried this for yourself? Help us improve our documentation.
 
-View our [contributing guide](https://github.com/magic-network/magic-agent/blob/master/CONTRIBUTING.md) 
-for more details. 
+View our [contributing guide](https://github.com/magic-network/magic-agent/blob/master/CONTRIBUTING.md)
+for more details.
 
