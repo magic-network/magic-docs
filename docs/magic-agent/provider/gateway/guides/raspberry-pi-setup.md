@@ -18,7 +18,7 @@ The install script will basically perform the actions in the step-by-step below,
 
 #### Download and run the Docker Install Script
 
-```curl -fsSL https://raw.githubusercontent.com/magic-network/magic-agent/master/scripts/install/install_docker.sh -o install.sh && sh install.sh```
+```curl -fsSL https://raw.githubusercontent.com/magic-network/magic-agent/master/scripts/install/rpi/install_docker.sh | sh```
 
 #### Run the Magic Install Script
 
@@ -74,12 +74,46 @@ You won't be able to connect to the Docker daemon until you restart
 
 ```sudo reboot```
 
-### Install Magic
+#### Build Freeradius
 
-Follow the same steps as the Quick Start:
-https://magic-network.github.io/magic-agent/provider/gateway/quick-start/gateway-server-setup.html
+We use the freeradius image hosted on dockerhub. Unfortunately this image does not have ARM support currently so we have to build it ourselves
 
-Depending on permissions on the Pi, you may need to modify the steps above with sudo.
+```Bash
+curl -fsSL https://raw.githubusercontent.com/FreeRADIUS/freeradius-server/v3.0.x/scripts/docker/alpine/Dockerfile -o Dockerfile
+curl -fsSL https://raw.githubusercontent.com/FreeRADIUS/freeradius-server/v3.0.x/scripts/docker/alpine/docker-entrypoint.sh -o docker-entrypoint.sh
+docker build . -t freeradius
+```
+
+This will take awhile...
+
+#### Alter the Dockerfile.radius Configuration
+
+Either run the following in the CLI
+
+```sed -i "s@freeradius/freeradius-server:latest@freeradius@g" ./Dockerfile.radius```
+
+Or change the following line from
+
+```freeradius/freeradius-server:latest```
+
+to
+
+```freeradius```
+
+#### Install Magic
+
+```Bash
+    git clone https://github.com/magic-network/magic-agent
+    cd magic-agent
+    docker-compose build freeradius
+    docker-compose pull gateway payments
+```
+
+#### Run Magic
+
+Running the following will spin up all the containers. You can be more selective by appending the command with the containers you want [`gateway`, `freeradius`, `payments`]
+
+```docker-compose up -d```
 
 ### Run Magic on startup
 
@@ -107,4 +141,4 @@ Alternatively you can install magic without needing docker at all. Docker just m
 
 #### Download and run the script
 
-```curl -fsSL https://raw.githubusercontent.com/magic-network/magic-agent/master/scripts/install/install.sh -o install.sh && sh install.sh```
+```curl -fsSL https://raw.githubusercontent.com/magic-network/magic-agent/master/scripts/install/rpi/install.sh | sh```
