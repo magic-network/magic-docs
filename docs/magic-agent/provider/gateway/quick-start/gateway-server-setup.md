@@ -1,7 +1,7 @@
-# Radius Gateway Server    
+# Radius Gateway Server
 
-As a reminder, the gateway runs on a separate device that should eventually be connected to the router. It's primary 
-goal is to authenticate users, track usage, and charge for network usage. Any magic client user 
+As a reminder, the gateway runs on a separate device that should eventually be connected to the router. It's primary
+goal is to authenticate users, track usage, and charge for network usage. Any magic client user
 within range of your network may utilize your network as long as they agree with your pricing and rules.
 
 *During gateway setup, it's best to have your gateway device connected to an existing internet connection before configuring your
